@@ -1,4 +1,3 @@
-# GO-LOGGER
-How to initialize and use loggers in GO.
-
-This Project makes use of the log package in go (https://golang.org/pkg/log/) and creates a simple General Logger (info) and Error Logger.
+# sf-logger
+Rewrite della funzione di LOG da utilizzare negli script fatti con GO.
+Lavoro originale qui: (https://github.com/BNPrashanth/go-logger)
