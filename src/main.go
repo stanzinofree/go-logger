@@ -1,23 +1,23 @@
 package main
 
 import (
-	u "go-logger/src/utils"
+	u "sf-logger/src/utils"
 )
 
 func main() {
 	// Strting the Application
-	u.GeneralLogger.Println("Starting..")
+	u.Info.Println("Starting..")
 
 	// Execution od Code
-	u.GeneralLogger.Println("Running Process 1")
-	u.GeneralLogger.Println("Running Process 2")
+	u.Debug.Println("Running Process 1")
+	u.Debug.Println("Running Process 2")
 
-	u.ErrorLogger.Println("An Error Occured: Error abcd")
+	u.Error.Println("An Error Occured: Error abcd")
 
-	u.GeneralLogger.Println("Running Process i")
-	u.ErrorLogger.Println("An Error Occured: Error efgh")
-	u.GeneralLogger.Println("Running Process n")
+	u.Debug.Println("Running Process i")
+	u.Error.Println("An Error Occured: Error efgh")
+	u.Debug.Println("Running Process n")
 
 	// Ending the Application
-	u.GeneralLogger.Println("Execution Completed..")
+	u.Info.Println("Execution Completed..")
 }
